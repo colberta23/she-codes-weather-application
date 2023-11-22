@@ -7,20 +7,54 @@
     <title>Umbrella Weather App</title>
   </head>
   <body>
-    <h1>Umbrellla Weather App</h1>
+    <div class="weather-app">
+      <header>
+        <span class="umbrella"> 🌂</span>
+        <span class="header-app"> The Umbrella Weather Application </span>
+      </header>
+      <form>
+        <input
+          type="search"
+          placeholder="Enter a city.."
+          required
+          class="search-city"
+        />
+        <input type="submit" value="Search" class="submit" />
+      </form>
+      <main>
+        <div class="date">🕐 Tuesday 16:49</div>
+        <div class="today-container">
+          <h1>Paris</h1>
+          <p>
+            Today, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
 
-    <h2>Accurate worldwide forecasts</h2>
-
-    <footer>
-      coded by
-      <a href="https://github.com/colberta23" target="_blank">Annie Colbert</a>
-      on
-      <a href="https://github.com/colberta23?tab=repositories" target="_blank"
-        >GitHub</a
-      >
-      and hosted by
-      <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-    </footer>
+          <div>🌤️ 12°C</div>
+        </div>
+      </main>
+      <section class="future-weather">
+        <ul>
+          <li>Tomorrow 🌤️ 12°C</li>
+          <li>Thursday 🌤️ 12°C</li>
+          <li>Friday 🌤️ 12°C</li>
+          <li>Saturday 🌤️ 12°C</li>
+        </ul>
+      </section>
+      <footer>
+        coded by
+        <a href="https://github.com/colberta23" target="_blank"
+          >Annie Colbert</a
+        >
+        on
+        <a href="https://github.com/colberta23?tab=repositories" target="_blank"
+          >GitHub</a
+        >
+        and hosted by
+        <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
