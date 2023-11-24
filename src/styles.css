@@ -70,23 +70,16 @@ form {
 }
 h1 {
   margin-top: 5px;
+  margin-bottom: 5px;
   font-size: 30px;
-  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-around;
 }
 
 p {
   font-size: 15px;
   line-height: 20px;
-}
-
-.today {
-  position: relative;
-  right: -230px;
-}
-
-.paris {
-  position: relative;
-  right: -25px;
+  margin-top: 5px;
 }
 
 .today-temp {

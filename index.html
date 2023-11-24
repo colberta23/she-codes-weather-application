@@ -12,20 +12,23 @@
         <span class="umbrella"> 🌂</span>
         <span class="header-app"> The Umbrella Weather Application </span>
       </header>
-      <form>
+      <form id="search-form-element">
         <input
           type="search"
           placeholder="Enter a city.."
           required
           class="search-city"
+          id="search-input"
         />
         <input type="submit" value="Search" class="submit" />
       </form>
       <main>
         <div class="date">🕐 Tuesday 16:49</div>
         <div class="today-container">
-          <span class="container-head">
-           <span class="paris"><h1>Paris </span> <span class="today">Today </span></h1>
+        <span class="container-head">
+ <h1>
+    <span class="paris" id="city-name"> Paris </span><span class="today">Today </span>
+</h1>
           </span>
           <p>
             Scattered clouds
