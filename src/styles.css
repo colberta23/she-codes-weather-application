@@ -76,6 +76,7 @@ h1 {
 
 p {
   font-size: 15px;
+  line-height: 20px;
 }
 
 .today {
@@ -98,7 +99,7 @@ p {
 }
 
 .today-temp-value {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 600;
   color: #9d53c3;
 }
@@ -145,5 +146,10 @@ li {
 footer {
   display: flex;
   justify-content: center;
+  color: #f83e4b;
+  font-size: 12px;
+}
+
+a {
   color: #f83e4b;
 }
