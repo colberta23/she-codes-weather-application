@@ -82,19 +82,20 @@ p {
   margin-top: 5px;
 }
 
-.today-temp {
-  position: relative;
-  left: 360px;
-  bottom: 85px;
-}
-.today-emoji {
-  font-size: 70px;
-}
-
-.today-temp-value {
+.temp-unit {
   font-size: 25px;
   font-weight: 600;
   color: #9d53c3;
+  position: relative;
+  top: -160px;
+  right: -450px;
+}
+
+#today-icon {
+  width: 55px;
+  position: relative;
+  top: -95px;
+  right: -355px;
 }
 
 ul {
