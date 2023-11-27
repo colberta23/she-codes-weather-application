@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Umbrella Weather App</title>
   </head>
   <body>
@@ -27,7 +28,7 @@
         <div class="today-container">
         <span class="container-head">
  <h1>
-    <span class="paris" id="city-name"> Paris </span><span class="today">Today </span>
+    <span class="paris" id="city-name"> </span><span class="today">Today </span>
 </h1>
           </span>
           <p>
@@ -38,16 +39,16 @@
              Wind: <strong>3.13km/h</strong>
           </p>
 
-          <div class="today-temp"><span class="today-emoji">🌤️</span> <span class="today-temp-value">12°C</span>
+          <div class="today-temp"><span class="today-emoji">🌤️</span> <span class="today-temp-value"><span id="today-temperature"></span>°C</span>
         </div>
       </main>
       <section class="future-weather">
         <ul>
           <li>Tomorrow <span class="emoji-1">🌤️</span> <br/>12°C</li>
-           <li>Thursday<span class="emoji-2">🌤️</span> <br/>12°C</li>
-            <li>Friday <span class="emoji-3">🌤️</span> <br/>12°C</li>
-             <li>Saturday <span class="emoji-4">🌤️</span> <br/>12°C</li>
-              <li>Sunday<span class="emoji-5">🌤️</span> <br/>12°C</li>
+          <li>Thursday<span class="emoji-2">🌤️</span> <br/>12°C</li>
+          <li>Friday <span class="emoji-3">🌤️</span> <br/>12°C</li>
+          <li>Saturday <span class="emoji-4">🌤️</span> <br/>12°C</li>
+          <li>Sunday<span class="emoji-5">🌤️</span> <br/>12°C</li>
          
         </ul>
       </section>
